@@ -32,4 +32,9 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 }
 
 
-// curl http://localhost:3000/api/test <---test me using this
+// curl http://localhost:3000/api/summarizer <---test me using this
+
+// curl -X POST -H "Content-Type: application/json" -d '{"url":"https://www.sandmarc.com/pages/iphone-photography-tips-and-tricks-for-iphone-15-and-14-pro"}' http://localhost:3000/api/summariser
+
+
+
